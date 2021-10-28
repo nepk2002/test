@@ -1,0 +1,57 @@
+1) int, char, long, byte, double, String, Integer, Double, Byte, boolean, Char
+
+2) for, for each, while, do... while
+
+3)	int a = 10;
+        switch (a){
+            case 1:
+                System.out.println(a);
+                break;
+            case 10:
+                System.out.println(a*a);
+                break;
+        }
+	
+4)	int a = 10;
+        if (a>6){
+            System.out.println(a);
+        } else if (a<3){
+            System.out.println(a+3);
+        }else System.out.println(a-2);
+
+5)         	String []  str = new String[]{"1","2","3","4"};
+		String [] str1 = new String[10];
+		String [] str2 = new String[]{};
+
+6) 	String []  str = new String[]{"1","2","3","4"};
+        String [] str1 = new String[]{"5","6","7","8"};
+        String [] str3 = new String[str.length + str1.length];
+        int a = 0;
+        for (int i = 0; i < str.length; i++) {
+            str3[i] = str[i];
+            a++;
+        }
+        for (int i = 0; i < str1.length; i++) {
+            str3[a] = str1[i];
+            a++;
+        }
+        for (int i = 0; i < str3.length; i++) {
+            System.out.print(str3[i]+" ");
+        }
+		
+7) break - завершение операции(цикл, case)
+	continue - проигнорировать часть кода
+
+8) for (int i = 0; i<10; i++){
+	for (int j = 0; j<10; j++){
+	}
+   }
+
+9) for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(" * ");
+            }
+            System.out.println();
+        }
+
+10) метод вызывает сам себя
